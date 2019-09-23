@@ -2,7 +2,7 @@
     angular
         .module('app.mainApp')
         .component('fileUploader', {
-            templateUrl: 'app/mainApp/components/fileUploader/fileUploader.tmpl.html',
+            templateUrl: './fileUploader.tmpl.html',
             controller: fileUploaderController,
             bindings: {
                 fileFormats: '<', //image/*, audio/*, video/*, application/pdf
